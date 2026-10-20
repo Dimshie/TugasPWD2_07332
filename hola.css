@@ -98,7 +98,9 @@ body {
   overflow: visible;
   justify-content: center;
   margin-bottom: 10px;
-
+  position: sticky;
+  top: 0;
+  z-index: 9999;
   border: 1px solid #e2e8f0;
 }
 .navbar a {
